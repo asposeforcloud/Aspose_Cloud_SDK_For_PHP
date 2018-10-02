@@ -1,0 +1,13 @@
+<phpunit bootstrap="Bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Aspose Cloud SDK for PHP">
+            <directory>./</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <!-- Specify API Configuration -->
+        <server name="BASE_PRODUCT_URI" value="http://api.aspose.com/v1.1" />
+        <server name="APP_SID" value="xxxxxxxxxxxxxxxxxxxxxxxx" />
+        <server name="APP_KEY" value="xxxxxxxxxxxxxxxxxxxxxxxx" />
+    </php>
+</phpunit>
